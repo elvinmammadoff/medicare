@@ -1,0 +1,372 @@
+/* 
+    Template Name: MediCare
+    Template URI: https://medicare.netlify.app/
+    Author: Alissio
+    File Description: Main Css file of the template
+	Version: 1.0.0
+*/
+
+/*-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. - FONTS
+
+    2. - Global
+
+    3. - CUSTOMIZE THE CAROUSEL
+
+    4. - RESPONSIVE
+
+-----------------------------------------------------------------------------------*/
+
+
+
+/* 1. - FONTS
+-------------------------------------------------- */
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('../fonts/AvenirNext-Light/AvenirNext-Light.eot');
+    src: url('../fonts/AvenirNext-Light/AvenirNext-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Light/AvenirNext-Light.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Light/AvenirNext-Light.woff') format('woff'),
+        url('../fonts/AvenirNext-Light/AvenirNext-Light.ttf') format('truetype'),
+        url('../fonts/AvenirNext-Light/AvenirNext-Light.svg#AvenirNext-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('../fonts/AvenirNext-Regular/AvenirNext-Regular.eot');
+    src: url('../fonts/AvenirNext-Regular/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Regular/AvenirNext-Regular.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Regular/AvenirNext-Regular.woff') format('woff'),
+        url('../fonts/AvenirNext-Regular/AvenirNext-Regular.ttf') format('truetype'),
+        url('../fonts/AvenirNext-Regular/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('../fonts/AvenirNext-Bold/AvenirNext-Bold.eot');
+    src: url('../fonts/AvenirNext-Bold/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Bold/AvenirNext-Bold.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Bold/AvenirNext-Bold.woff') format('woff'),
+        url('../fonts/AvenirNext-Bold/AvenirNext-Bold.ttf') format('truetype'),
+        url('../fonts/AvenirNext-Bold/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+/* 2. - Global
+-------------------------------------------------- */
+
+* {
+    outline: 0 !important;
+    font-weight: 300;
+}
+
+body {
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;  
+    font-family: 'AvenirNext';
+    font-weight: 400;  
+}
+
+a,
+button {
+    outline: 0 !important;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* 3. - CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel-item {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.carousel-indicators {
+    bottom: 48px;
+}
+
+.carousel-control {
+    z-index: 1;
+    background: none;
+    opacity: .9;
+    width: auto;
+}
+
+.carousel-control-next, 
+.carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel-control-next img, 
+.carousel-control-prev img {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-inner .carousel-item {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    -webkit-transition-duration: .3s;
+         -o-transition-duration: .3s;
+            transition-duration: .3s;
+}
+
+.carousel-caption {
+    margin: 0;
+    bottom: 0;
+    text-shadow: none;
+    padding: 0;
+    height: 100%; 
+}
+
+.carousel-caption h1 {
+    color: #ffffff;
+    font-size: 76px;
+    border-left: 1px solid #56b3a5;
+    border-right: 1px solid #56b3a5;
+    display: inline-block;
+    padding: 20px 80px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.item_name {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: normal;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.item_img {
+    max-width: 100%; 
+    width: 400px;  
+}
+
+.slide-img-1 {
+    height: 620px;
+    overflow: hidden;
+}
+
+.slide-img-2 {
+    height: 620px;
+    overflow: hidden;
+}
+
+.slide-img-2 img {
+    width: 450px;
+}
+
+.slide-img-3 {
+    height: 670px;
+    overflow: hidden;
+}
+
+.bg-1 {
+    background-image: url('../img/bg-1.jpg')
+}
+
+.bg-2 {
+    background-image: url('../img/bg-2.jpg')
+}
+
+.bg-3 {
+    background-image: url('../img/bg-3.jpg')
+}
+
+.carousel-caption h1 .border-top:before,
+.carousel-caption h1 .border-top:after,
+.carousel-caption h1 .border-bottom:before,
+.carousel-caption h1 .border-bottom:after {
+    content: '';
+    position: absolute;
+    width: 7%;
+    height: 1px;
+    background-color: #56b3a5;
+}
+
+.carousel-caption h1 .border-top:before {
+    top: 0px;
+    left: 0px;
+}
+
+.carousel-caption h1 .border-top:after {
+    top: 0px;
+    right: 0px;
+}
+
+.carousel-caption h1 .border-bottom:after {
+    bottom: 0px;
+    right: 0px;
+}
+
+.carousel-caption h1 .border-bottom:before {
+    bottom: 0px;
+    left: 0px;
+}
+
+.carousel-caption p {
+    color: #fff;
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 0;
+    max-width: 80%;
+}
+
+.carousel-caption .fadeUp,
+.carousel-caption .fadeUpSlow {
+    opacity: 0;
+    transform: translate3d(0,100px,0);
+    -webkit-transition: all 1s cubic-bezier(.175,.885,.32,1.275);
+    -o-transition: all 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: all 1s cubic-bezier(.175,.885,.32,1.275)
+}
+
+.carousel-inner .carousel-item.active .carousel-caption .fadeUp {
+    -webkit-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+}
+
+.carousel-caption .fadeIn {
+    opacity: 0;
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%);
+    -webkit-transition: all 1s cubic-bezier(.175,.885,.32,1.275);
+    -o-transition: all 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: all 1s cubic-bezier(.175,.885,.32,1.275)
+}
+
+.carousel-inner .carousel-item.active .carousel-caption .fadeIn {
+    opacity: 1;
+}
+
+.carousel-caption .zoomIn .circle {
+    opacity: 0;
+    transform: scale(.1);
+    -webkit-transition: all 1s cubic-bezier(.175,.885,.32,1.275);
+    -o-transition: all 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: all 1s cubic-bezier(.175,.885,.32,1.275)
+}
+
+.carousel-inner .carousel-item.active .carousel-caption .zoomIn .circle {
+    transform: translateZ(0) scale(1);
+    opacity: 1;
+}
+
+.carousel-caption .fade-slow {
+    -webkit-transition-delay: .4s;
+         -o-transition-delay: .4s;
+            transition-delay: .4s;
+}
+
+.carousel-indicators button[data-bs-target],
+.carousel-indicators button[data-bs-target].active {
+    width: 13px;
+    height: 13px;
+    border-width: 2px;
+    border-color: #fff;
+    margin: 0 8px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators button[data-bs-target].active {
+    background-color: #fff;
+}
+
+.circle {
+    width: 540px;
+    min-width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    background-color: #ff9b00;
+    position: absolute;
+    bottom: 10px;
+}
+
+.animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+}
+
+/* .animate-shadow {
+    -webkit-animation: shadow 1s infinite;
+            animation: shadow 1s infinite;
+} */
+
+/* @keyframes shadow {
+    0%,to {
+        -webkit-transform: scale(.8);
+                transform: scale(.8);
+        -webkit-animation-timing-function: cubic-bezier(.8,0,1,1);
+                animation-timing-function: cubic-bezier(.8,0,1,1)
+    }
+
+    50% {
+        -webkit-transform: none;
+                transform: none;
+        -webkit-animation-timing-function: cubic-bezier(0,0,.2,1);
+                animation-timing-function: cubic-bezier(0,0,.2,1)
+    }
+} */
+
+
+/* 4. - RESPONSIVE
+-------------------------------------------------- */
+
+@media only screen and (max-width: 1160px) {
+    .carousel-caption {
+        left: 12%;
+        right: 12%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .item_name {
+        font-size: 38px;
+    }
+    .carousel-caption p {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-caption {
+        padding: 0 1rem;
+    }
+}
