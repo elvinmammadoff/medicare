@@ -1,9 +1,9 @@
-<div class="user-html user-html__with-lazy-load"><a href="https://medicare.netlify.app/documentation/" rel="nofollow" target="_blank"><img src="https://medicare.netlify.app/src/assets/img/doc.png" alt="MediCare Slider - Online Documentation"></a>
+<div class="user-html user-html__with-lazy-load"><a href="https://medicare-slider.netlify.app/documentation/" rel="nofollow" target="_blank"><img src="https://medicare-slider.netlify.app/src/assets/img/doc.png" alt="MediCare Slider - Online Documentation"></a>
 <h3 id="item-description__medicare-responsive-medical-center-bootstrap-v5-slider">MediCare – Responsive Medical Center Bootstrap v5 Slider</h3>
 <p><strong>MediCare</strong> Slider is an all-in-one package that includes unique style and functionality. It provides you customizable sliders to help create dynamic and engaging web pages. <br><br>With <strong>MediCare</strong> Slider you can quickly and easily add stunning slider to your website. It is easy to use, fully responsive and works seamlessly across all devices.<br><br>Choose from a variety of transition effects, control animations and customize everything from colors to fonts to create the perfect slider for your website.<br><br>Get <strong>MediCare</strong> Slider and take your website to the next level.</p>
 
 
-<img src="https://medicare.netlify.app/src/assets/img/rate.png" alt="rate-us">
+<img src="https://medicare-slider.netlify.app/src/assets/img/rate.png" alt="rate-us">
 
 <h3 id="item-description__why-choose-medicare-slider">Why choose MediCare Slider?</h3>
 <ul>
@@ -67,22 +67,30 @@
 </li>
 </ul>
 <h3 id="item-description__documentation">Documentation</h3>
-<a href="https://medicare.netlify.app/documentation/" rel="nofollow" target="_blank">Check the docs here</a>
+<a href="https://medicare-slider.netlify.app/documentation/" rel="nofollow" target="_blank">Check the docs here</a>
+<h3 id="item-description__customization-services">Important Note:</h3>
+<ul>
+<li>All images are just used for Preview Purpose Only. They are not part of the HTML templates and are not included in the final purchase files.</li>
+<li>Images and videos shown on our demo site are not part of the template download package due to licensing limitations and hence we are providing placeholder images with recommended image size mentioned in it.</li>
+<li>Any type of code or CSS customization and feature addition/change is not part of item support scope as per Envato item <a href="https://themeforest.net/page/item_support_policy?_ga=2.233764957.275401607.1701770067-503905489.1698934107" target="_blank">support policy</a>.</li>
+<li>Included a documentation file for full instruction.</li>
+</ul>
 <h3 id="item-description__sources-and-credits">Sources and Credits</h3>
-<p><strong>Any media — Images and used in the preview are not included in the project you download. Images are only for demo purposes. Used images are replaced with placeholders. But included a documentation file for full instruction.</strong></p><h3 id="item-description__thank-you">Thank you:</h3><p>Thank you so much for using this template. Your comments and ratings would be much appreciated. Please don’t forget RATE for us.</p><p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
+<p><strong>Please note: the images that can be seen in the preview will not be included in the download package. These are for preview purposes only.</strong> Full credits list you can see on this page <a href="https://medicare-slider.netlify.app/documentation/index.html#credits" target="_blank">link</a></p>
+<h3 id="item-description__thank-you">Thank you:</h3><p>Thank you so much for using this template. Your comments and ratings would be much appreciated. Please don’t forget RATE for us.</p><p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
 </p><p>We are grateful to you.
 </p><p><strong>– Alissio –</strong></p>
 
 <h3 id="item-description__change-log">Change Log:</h3>
-<p>V. 1.0.0 – 03.03.2024</p>
+<p>V. 1.0.0 – 05.03.2024</p>
 <pre>- Initial release</pre>
 <p>If you love our product, Don’t forget to rate it 5 stars</p>
 <p>
-<img src="https://medicare.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://medicare.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://medicare.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://medicare.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://medicare.netlify.app/src/assets/img/star.png" alt="star"> 
+<img src="https://medicare-slider.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://medicare-slider.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://medicare-slider.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://medicare-slider.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://medicare-slider.netlify.app/src/assets/img/star.png" alt="star"> 
 and let us know your feedback for a better update. Thank you
-<img src="https://medicare.netlify.app/src/assets/img/smile.png" alt="happy">
+<img src="https://medicare-slider.netlify.app/src/assets/img/smile.png" alt="happy">
 </div>

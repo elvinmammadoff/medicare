@@ -181,20 +181,23 @@ a:focus {
 }
 
 .item_img {
-    height: 90%;
+    max-height: 100%;
 }
 
 .slide-img {
+    position: absolute;
+    bottom: 0;
     height: 100%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .bg-1 {
@@ -287,13 +290,11 @@ a:focus {
 }
 
 .circle {
-    width: 540px;
-    min-width: 540px;
-    height: 540px;
+    width: 480px;
+    min-width: 480px;
+    height: 480px;
     border-radius: 50%;
     background-color: #ff9b00;
-    position: absolute;
-    bottom: 10px;
 }
 
 
@@ -311,6 +312,12 @@ a:focus {
     } 
     .carousel-control-prev {
         left: 7%;
+    }
+
+    .circle {
+        width: 420px;
+        min-width: 420px;
+        height: 420px;
     }
 }
 
@@ -340,8 +347,8 @@ a:focus {
         right: 11%;
     } 
     .circle {
-        width: 500px;
-        min-width: 500px;
-        height: 500px;
+        width: 400px;
+        min-width: 400px;
+        height: 400px;
     }
 }
