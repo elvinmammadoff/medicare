@@ -160,6 +160,19 @@ a:focus {
     margin-bottom: 50px;
 }
 
+.carousel-control-next, 
+.carousel-control-prev {
+    width: 20px;
+}
+
+.carousel-control-next {
+    right: 12%;
+} 
+
+.carousel-control-prev {
+    left: 10%;
+}
+
 .item_name {
     font-size: 52px;
     font-weight: bold;
@@ -171,26 +184,15 @@ a:focus {
 
 .item_img {
     max-width: 100%; 
-    width: 400px;  
+    height: inherit;
 }
 
-.slide-img-1 {
-    height: 620px;
+.slide-img {
+    height: 100%;
     overflow: hidden;
-}
-
-.slide-img-2 {
-    height: 620px;
-    overflow: hidden;
-}
-
-.slide-img-2 img {
-    width: 450px;
-}
-
-.slide-img-3 {
-    height: 670px;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .bg-1 {
@@ -295,18 +297,18 @@ a:focus {
 
 .carousel-indicators button[data-bs-target],
 .carousel-indicators button[data-bs-target].active {
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
     border-width: 2px;
-    border-color: #fff;
     margin: 0 8px;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 3px solid #ff9c00;
     border-radius: 10px;
+    opacity: 1;
 }
 
 .carousel-indicators button[data-bs-target].active {
-    background-color: #fff;
+    background-color: #ff9c00;
 }
 
 .circle {
