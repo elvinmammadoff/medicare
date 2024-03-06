@@ -181,7 +181,7 @@ a:focus {
 }
 
 .item_img {
-    max-height: 100%;
+    height: 100%;
 }
 
 .slide-img {
@@ -287,14 +287,6 @@ a:focus {
 
 .carousel-indicators button[data-bs-target].active {
     background-color: #ff9c00;
-}
-
-.circle {
-    width: 480px;
-    min-width: 480px;
-    height: 480px;
-    border-radius: 50%;
-    background-color: #ff9b00;
 }
 
 
