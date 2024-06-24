@@ -82,6 +82,11 @@
 </p><p><strong>– Alissio –</strong></p>
 
 <h3 id="item-description__change-log">Change Log:</h3>
+
+<p>V. 1.0.1 – 24.06.2024</p>
+<pre>- Changed: Slider items img
+- Added: New animation effects for slider description
+- Updated: Documentation</pre>
 <p>V. 1.0.0 – 05.03.2024</p>
 <pre>- Initial release</pre>
 <p>If you love our product, Don’t forget to rate it 5 stars</p>
